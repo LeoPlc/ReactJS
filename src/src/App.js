@@ -1,3 +1,4 @@
+import ForceGraph3D from '../../react-force-graph';
 import logo from './logo.svg';
 import './App.css';
 
