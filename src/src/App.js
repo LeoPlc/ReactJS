@@ -1,12 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-function MyButton(){
-    return (
-      <button>I'm a button</button>
-    )
-}
-
+import HelloWorld from './HelloWorld';
 
 function App() {
   return (
@@ -24,9 +19,8 @@ function App() {
         >
           Learn React
         </a>
-        <MyButton/>
       </header>
-      
+      <HelloWorld />
     </div>
   );
 }
